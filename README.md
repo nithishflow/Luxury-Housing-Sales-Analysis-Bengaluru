@@ -29,9 +29,9 @@ BI & Visualization	Power BI (DirectQuery, DAX)
 Version Control	Git & GitHub
 ```
 📂 Dataset Description
-```bash
-The dataset contains luxury housing transactions with the following key fields:
 
+The dataset contains luxury housing transactions with the following key fields:
+```bash
 Property_ID
 
 Project_Name
