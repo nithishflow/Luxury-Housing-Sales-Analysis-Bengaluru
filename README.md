@@ -61,17 +61,17 @@ Buyer_Type
 NRI_Buyer
 ```
 🧹 Step 1: Python — Data Cleaning & Feature Engineering
-```bash
-✔ Data Cleaning
 
+✔ Data Cleaning
+```bash
 Standardized inconsistent price formats (₹, Cr, commas)
 
 Handled missing values using median-based imputation
 
 Normalized text fields to avoid duplicate categories
-
+```
 ✔ Feature Engineering
-
+```bash
 Derived analytical columns:
 
 Price_per_Sqft
@@ -87,15 +87,15 @@ Quarter Label (Q1–Q4)
 Output: DB-ready cleaned dataset
 ```
 🗄️ Step 2: SQL Server — Data Storage & Validation
-```bash
-✔ Database Design
 
+✔ Database Design
+```bash
 Optimized schema with correct data types (BIT, TINYINT, FLOAT)
 
 Boolean flags stored using BIT for data integrity
-
+```
 ✔ Validation Queries
-
+```bash
 Record counts
 
 Booking distribution
@@ -105,13 +105,13 @@ Revenue & average ticket size per builder
 Micro-market conversion analysis
 ```
 📊 Step 3: Power BI — Interactive Dashboard
-```bash
+
 ✔ DirectQuery Connection
-
+```bash
 Live connection to SQL Server (house2.dbo.house_data_3)
-
+```
 ✔ Key DAX Measures
-
+```bash
 Total Bookings
 
 Total Transactions
