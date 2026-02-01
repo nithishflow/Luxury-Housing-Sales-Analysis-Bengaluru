@@ -6,7 +6,7 @@ An end-to-end data analytics & BI project analyzing luxury housing transactions 
 The project focuses on booking behavior, pricing trends, builder performance, and market insights.
 ---
 📌 Project Overview
-
+---
 This project analyzes luxury housing sales data to answer key business questions such as:
 
 Which builders dominate revenue and bookings?
@@ -19,7 +19,7 @@ How do amenities and sales channels impact booking conversion?
 
 The pipeline follows a real-world analytics workflow:
 CSV → Python cleaning → SQL Server → Power BI dashboards
-
+---
 🛠️ Tech Stack
 Layer	Tools
 Data Cleaning & Feature Engineering	Python (Pandas, NumPy)
