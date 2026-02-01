@@ -61,6 +61,7 @@ Buyer_Type
 NRI_Buyer
 ```
 🧹 Step 1: Python — Data Cleaning & Feature Engineering
+```bash
 ✔ Data Cleaning
 
 Standardized inconsistent price formats (₹, Cr, commas)
@@ -84,8 +85,9 @@ Year
 Quarter Label (Q1–Q4)
 
 Output: DB-ready cleaned dataset
-
+```
 🗄️ Step 2: SQL Server — Data Storage & Validation
+```bash
 ✔ Database Design
 
 Optimized schema with correct data types (BIT, TINYINT, FLOAT)
@@ -101,8 +103,9 @@ Booking distribution
 Revenue & average ticket size per builder
 
 Micro-market conversion analysis
-
+```
 📊 Step 3: Power BI — Interactive Dashboard
+```bash
 ✔ DirectQuery Connection
 
 Live connection to SQL Server (house2.dbo.house_data_3)
@@ -120,8 +123,9 @@ Total Revenue
 Average Ticket Size
 
 Project Count
-
+```
 📈 Dashboard Insights
+```bash
 Market Trends
 
 Quarterly booking trends across micro-markets
@@ -145,8 +149,9 @@ Most in-demand housing configurations (2BHK, 3BHK, etc.)
 Geographical Insights
 
 Concentration of luxury projects across Bengaluru
-
+```
 🎯 Key Business Insights
+```bash
 
 Premium builders consistently dominate both revenue and booking volume
 
@@ -155,8 +160,9 @@ Certain micro-markets show high conversion despite fewer listings
 Amenity score positively correlates with booking success
 
 Digital and broker-assisted channels outperform others in conversions
-
+```
 📌 Project Structure
+```bash
 ├── data/
 │   ├── raw_housing_data.csv
 │   ├── cleaned_housing_data.csv
@@ -172,9 +178,9 @@ Digital and broker-assisted channels outperform others in conversions
 │   ├── Luxury_Housing_Dashboard.pbix
 │
 ├── README.md
-
+```
 🚀 How to Run This Project
-
+```bash
 Clean the CSV using Python
 
 Load cleaned data into SQL Server
@@ -182,13 +188,9 @@ Load cleaned data into SQL Server
 Connect Power BI using DirectQuery
 
 Build visuals using provided DAX measures
-
-🎤 Interview Talking Point
-
-“This project demonstrates a complete analytics workflow — from raw data cleaning and feature engineering to SQL modeling and interactive Power BI dashboards with business-driven insights.”
-
+```
 🔮 Future Enhancements
-
+```bash
 Add a proper Date Dimension table
 
 Builder-level performance ranking using RANKX
@@ -196,10 +198,9 @@ Builder-level performance ranking using RANKX
 Predictive booking probability model
 
 Deployment using Power BI Service
-
+```
 📬 Contact
-
-Author: [Your Name]
-📧 Email: [your.email@example.com
-]
-🔗 LinkedIn: [your LinkedIn profile]
+```bash
+Author: Nithish Kumar
+📧 Email: vasifootball007@gmail.com
+```
