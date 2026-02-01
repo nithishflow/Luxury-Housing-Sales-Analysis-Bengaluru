@@ -20,7 +20,7 @@ How do amenities and sales channels impact booking conversion?
 The pipeline follows a real-world analytics workflow:
 CSV → Python cleaning → SQL Server → Power BI dashboards
 ---
-###🛠️ Tech Stack
+🛠️ Tech Stack
 ```bash
 Layer	Tools
 Data Cleaning & Feature Engineering	Python (Pandas, NumPy)
@@ -29,7 +29,7 @@ BI & Visualization	Power BI (DirectQuery, DAX)
 Version Control	Git & GitHub
 ```
 📂 Dataset Description
-
+```bash
 The dataset contains luxury housing transactions with the following key fields:
 
 Property_ID
@@ -59,7 +59,7 @@ Possession_Status
 Buyer_Type
 
 NRI_Buyer
-
+```
 🧹 Step 1: Python — Data Cleaning & Feature Engineering
 ✔ Data Cleaning
 
