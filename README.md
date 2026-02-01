@@ -21,11 +21,13 @@ The pipeline follows a real-world analytics workflow:
 CSV → Python cleaning → SQL Server → Power BI dashboards
 ---
 🛠️ Tech Stack
+```bash
 Layer	Tools
 Data Cleaning & Feature Engineering	Python (Pandas, NumPy)
 Database	SQL Server
 BI & Visualization	Power BI (DirectQuery, DAX)
 Version Control	Git & GitHub
+```
 📂 Dataset Description
 
 The dataset contains luxury housing transactions with the following key fields:
